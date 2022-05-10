@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\STM32F1x_FWLIB\inc
+-I C:\Users\HOME\Desktop\temblate\USER\RTE
+-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I D:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\main.o --omf_browse ..\main.crf --depend ..\main.d "main.c"
